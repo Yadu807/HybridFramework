@@ -25,7 +25,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Base1 {
-
     public WebDriver driver;
     public static ExtentReports extent;
     public ExtentTest mytest;
