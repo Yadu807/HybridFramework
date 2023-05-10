@@ -36,6 +36,7 @@ public class SignIn {
         txt_Username.sendKeys(username);
         txt_pswd.sendKeys(password);
         btn_Login.click();
+
     }
 
     public Boolean isErrorMsgDisplayed(){
