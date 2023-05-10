@@ -42,7 +42,6 @@ public class SignIn {
     public Boolean isErrorMsgDisplayed(){
         return lbl_LoginErrorMsg.isDisplayed();
 
-
     }
 
 
