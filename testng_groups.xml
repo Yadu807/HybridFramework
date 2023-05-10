@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Framework">
+    <test  name="Chrome Execution">
+        <parameter name="browser" value="chrome"></parameter>
+        <groups>
+            <run>
+                <include name="Smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="AutomationFramework.TestScript.Script_login"> </class>
+        </classes>
+    </test>
+</suite>
